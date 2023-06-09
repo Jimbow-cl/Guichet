@@ -1,0 +1,402 @@
+body{
+    background-color: bisque;
+	cursor: crosshair;
+}
+.tete{
+    height: 50px;
+    background-color: brown;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.monospace{
+	font-family: monospace;
+    font-size: 16px;
+}
+.myCinema {
+    height: 67px;
+    width: 200px;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:53px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.myCinema:hover {
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+	background-color:#c62d1f;
+}
+.myCinema:active {
+	position:relative;
+	top:1px;
+}
+.Film {
+    height: 67px;
+    width: 200px;
+    text-align: center;
+    margin-right: 5px;
+    margin-bottom: 30px;
+	box-shadow:inset 0px 0px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:32px 27px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #154682;
+}
+.Film:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.Film:active {
+	position:relative;
+	top:1px;
+}
+.myTheatre {
+    height: 67px;
+    width: 200px;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:54px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+}
+.myTheatre:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+.myTheatre:active {
+	position:relative;
+	top:1px;
+}
+.myRetour {
+	
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+	background-color:#b8e356;
+	border-radius:6px;
+	border:1px solid #83c41a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #86ae47;
+}
+.myRetour:hover {
+	background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+	background-color:#a5cc52;
+}
+.myRetour:active {
+	position:relative;
+	top:1px;
+}
+.mOtherButton {
+	margin-top: 20px;
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#7d5d3b;
+	border-radius:3px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:11px 38px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+}
+.mOtherButton:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+}
+.mOtherButton:active {
+	position:relative;
+	top:1px;
+}
+.Theatre {
+	height: 67px;
+    width: 200px;
+    text-align: center;
+    margin-right: 5px;
+    margin-bottom: 30px;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-table;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:32px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.Theatre:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.Theatre:active {
+	position:relative;
+	top:1px;
+}
+footer {
+    position: fixed;
+    bottom: 2px;
+    height: 20px;
+    width: 100%;
+    background-color: #942911;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.talign{
+	text-align: center;
+}
+.column{
+	flex-direction: column;
+}
+.align{
+	align-items: center;
+	justify-content: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.menu{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menuc {
+    width: 90vw;
+}
+.menut {
+    width: 90vw;
+}
+.retour{
+    height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.clignote  {
+    display: flex;
+    font-weight: bolder;
+    font-family: system-ui;
+    animation-duration: 1s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+    justify-content: center;
+ }
+ @keyframes clignoter {
+   0%   { opacity:1; }
+   40%   {opacity:0; }
+   100% { opacity:1; }
+ }
+ #form1 {
+    display:none; 
+}
+#form2 {
+    display:none; 
+}
+#form3 {
+    display:none; 
+}
+#form4 {
+    display:none; 
+}
+#submit {
+	font-family: revert;
+    font-size: 21px;
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 7px;
+}
+.imgFilm {
+	height:50px;
+	width: 100px;
+}
+.imgTheatre {
+	height:70px;
+	width: 120px;
+}
+.imgPEGI {
+	margin-top: 7px;
+	border-radius: 3px;
+	height:35px;
+	width: 35px;
+}
+.filmTitle{
+	font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.thTitle{
+	font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.fontCinema{
+	height: 367px;
+	width: 700px;
+	background-image:url(public/Ticketingc.jpg);
+	background-repeat: no-repeat;
+}
+.fontTheatre{
+	height: 367px;
+    width: 367px;
+	background-image:url(public/Ticketingt.svg);
+	background-repeat: no-repeat;
+}
+.place{
+	text-transform: uppercase;
+}
+
+.thTitre{
+	color: white;
+    font-family: monospace;
+    font-size: 45px;
+    margin-top: 12px;
+    margin-left: 46px;
+    margin-bottom: -16px;
+}
+.thDate{
+	color: white;
+    font-family: monospace;
+    margin-left: 276px;
+}
+.thPlace{
+	color: white;
+    font-family: monospace;
+    font-size: 32px;
+    margin-top: 16px;
+    margin-left: 319px;
+}
+.thTarif{
+	color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: -23px;
+    margin-left: 248px;
+}
+.thHour{
+	color: white;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 44px;
+    margin-left: 50px;
+}
+.thEntract{
+	color: white;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: -19px;
+    margin-left: 50px;
+}
+.thID{
+	color: white;
+    font-family: monospace;
+    font-size: 15px;
+    margin-top: -12px;
+    margin-left: 50px;
+}
+.tQR{
+	margin-left: 219px;
+    margin-top: -145px;
+    margin-bottom: 52px;
+    height: 130px;
+}
+.cTarif{
+	font-family: monospace;
+    color: bisque;
+    margin: 24px 0px 159px 194px;
+    font-size: 36px;
+}
+.cDate{
+	font-family: monospace;
+    color: bisque;
+    font-size: 21px;
+    margin-left: 136px;
+    margin-bottom: -63px;
+
+}
+.cId{
+	font-family: monospace;
+    color: bisque;
+}
+.cSalle{
+	margin-left: 110px;
+}
+.cFilm{
+	width: 153px;
+    font-family: monospace;
+    color: brown;
+    font-size: 21px;
+    margin-left: 529px;
+    font-weight: bold;
+}
+.cSeance{
+	font-family: monospace;
+    color: bisque;
+    font-size: 21px;
+    margin-left: 136px;
+}
+.cPlace{
+	margin-left: 132px;
+}
+.cimg{
+	height: 45px;
+    margin-left: 586px;
+    margin-top: -19px;
+}
+.cgetId{
+	font-family: monospace;
+    color: bisque;
+}
+.cQR{
+	margin-left: 540px;
+    margin-bottom: -146px;
+    margin-top: 30px;
+    height: 130px;
+}
