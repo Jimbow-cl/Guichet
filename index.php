@@ -24,7 +24,7 @@ include_once __DIR__.'\class\ticket.php';
 <div class="menu">
 <a href="cinema.php" class="myCinema">Cinema</a>
 <a href="theatre.php" class="myTheatre">Théatre</a>
-
+<a href="form.php" class="myRetour2"><img class="imgPEGI" src="./public/assistance.png"/>Help</a>
 </div>
 
 
